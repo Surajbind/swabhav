@@ -1,0 +1,44 @@
+1) What is a Github ?
+
+Ans > Github is a clouding system which gives us online storage.
+
+
+2) What is a Git ?
+ 
+Ans > Git is a version control which helps us to makes things easy, when working in a 
+      distributed system. It helps to update or backup the codes written by one whenever
+      needed.
+
+3) What is a Repositry ? 
+       
+Ans > A Repositry is an online diretory where we save our projects and edit them OR
+      check the status accordigly.
+
+4) What is a Commit ?
+
+Ans > A Commit is basically a snapshot, which is taken every time we save the changes 
+      in the codes.
+
+5) What is a Hash ?
+
+Ans > Everytime we save the codes in a repositry the git provides a unique id to the 
+      chages made in it.This unique id is known as "HASH".
+
+6) What is a Master Branch ?
+
+Ans > A Master Branch is a timeline which is created during making of the Commit.
+      Everytime we make a Commit it elongates the master branch.
+
+Git Syntax:
+
+$>git init (getting started)
+$>notepad (write some codes)
+$>git add . (to add a commit) {it save commit in memory}
+$>git commit -m 'initial' (it gets save in the disk)
+$>git status (to know status)
+$>git log (every log)
+$>git checkout master (creating a master)
+$>git remote -v 
+$>git remote add origin url
+$>git remote -v 
+$>git push origin master 
