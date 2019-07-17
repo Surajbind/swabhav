@@ -5,7 +5,7 @@ public class EvenTest {
 		int x=13;
 		
 		if (x%2==0){
-			System.out.print("The Given Number " +x+ " Is An Een Number");
+			System.out.print("The Given Number " +x+ " Is An Even Number");
 		}
 		else{
 			System.out.print("The Given Number " +x+ " Is A Odd Number");
